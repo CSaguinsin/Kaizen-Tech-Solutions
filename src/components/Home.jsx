@@ -16,17 +16,18 @@ import Python from '../assets/python.png'
 import Java from '../assets/java.png'
 import PostgreSQL from '../assets/postgresql.png'
 const Home = () => {
-  return (
+  return ( 
     <>
-<section className="pb-[5rem] bg-white">
-            <h1 className=" text-center font-semibold font-[inter] text-[#909090]">
+<section className="pb-[5rem] bg-white ">
+            <h1 className=" text-center font-semibold font-[inter] text-[#909090] text-[10px] sm:text-[16px]">
                 Kaizen Tech and Software Solutions
             </h1>
 
-            <h1 className="text-center text-[100px] font-bold font-[inter] pt-[16px] text-black">
+            <h1 className="text-center font-bold font-[inter] pt-[16px] text-black text-[65px] sm:text-[100px] ">
                 Where <span style={{ color: '#22B5F3' }}>Ideas</span><br />Meets <span style={{ color: '#22B5F3' }}>Executions</span>
             </h1>
-            <p className="text-center text-[16px] font-regular font-[inter] text-black">
+
+            <p className="text-center text-[12px] sm:text-[16px] font-regular font-[inter] text-black">
                 Kaizen Tech and Software Solutions, based in the Philippines, pioneers bespoke <br />
                 website development, elevating brands and driving online growth.
             </p>
@@ -37,78 +38,83 @@ const Home = () => {
 </section>
 
 <section className="bg-black pt-[86px] pb-10">
-        <h1 className="text-center text-white font-semibold text-[32px] font-[inter]">From Ideation to Development to Deployment</h1>
-        <p className="text-center text-[16px] font-regular font-[inter] text-white pt-[24px]">
+        <h1 className="text-center text-white font-semibold text-[30px] sm:text-[42px] font-[inter]">From Ideation to Development to Deployment</h1>
+        <p className="text-center text-[10px] sm:text-[16px] font-regular font-[inter] text-white pt-[24px]">
                 It all starts with an idea. We help those that have reached the <br />
                 point of being ready to extend their business with a relevant < br />
                 and impactful software.
         </p>
-<div className="flex justify-center pt-[40px] space-x-[44px]"> 
-        <div> 
-                <img src={ideation} alt="ideation" className="w-[373px] h-[337px]" />
-                <h1 className="pt-10 text-center text-[40px] font-semibold font-[inter] text-white">
-                    Ideation
-                </h1>
-                <p className="text-center text-[16px] font-regular font-[inter] text-white pt-[24px]">
-                            Ideation sparks the flame of innovation, where <br />
-                            ideas take flight and possibilities abound. < br />
-                            Its the creative process of generating, refining, < br />
-                            and shaping concepts into actionable plans.
-                 </p>
-        </div>
-        <div> 
-        <img src={development} alt="development" className="w-[373px] h-[337px]" />
-                <h1 className="pt-10 text-center text-[40px] font-semibold font-[inter] text-white">
-                    Development
-                </h1>
-                <p className="text-center text-[16px] font-regular font-[inter] text-white pt-[24px]">
-                                    Development is where ideas come to life, <br />
-                    as skilled hands craft code, design interfaces, < br />
-                    and build functionality. Its a journey of problem  < br />
-                    solving and iteration, where every line of code  < br />
-                    and pixel perfected brings the vision to reality. < br />
-                 </p>
-        </div>
+        <div className="pt-[40px] pb-10 flex flex-col items-center sm:flex-row sm:justify-center sm:space-x-[44px] "> 
+                <div className="text-center"> 
+                                <img src={ideation} alt="ideation" className="w-[373px] h-[337px] sm:max-w-full pt-10" />
+                                <h1 className="pt-10 text-[40px] font-semibold font-[inter] text-white">
+                                Ideation
+                                </h1>
+                                <p className="text-center text-[16px] font-regular font-[inter] text-white pt-[24px]">
+                                Ideation sparks the flame of innovation, where <br />
+                                ideas take flight and possibilities abound. <br />
+                                Its the creative process of generating, refining, <br />
+                                and shaping concepts into actionable plans.
+                                </p>
+                </div>
 
-        <div> 
-        <img src={deployment} alt="deployment" className="w-[373px] h-[337px]" />
-                <h1 className="pt-10 text-center text-[40px] font-semibold font-[inter] text-white">
-                    Deployment
-                </h1>
-                <p className="text-center text-[16px] font-regular font-[inter] text-white pt-[24px]">
-                                    Deployment marks the culmination of hard work  < br />
-                    and dedication, as solutions are unleashed into the < br />
-                    world. Its the moment of truth, where ideas meet the  < br />
-                    real world, making an impact and driving change. < br />
-                 </p>
-        </div>
+  <div className="text-center"> 
+    <img src={development} alt="development" className="w-[373px] h-[337px] sm:max-w-[373px] pt-10" />
+    <h1 className="pt-10 text-[40px] font-semibold font-[inter] text-white">
+      Development
+    </h1>
+    <p className="text-center text-[16px] font-regular font-[inter] text-white pt-[24px]">
+      Development is where ideas come to life, <br />
+      as skilled hands craft code, design interfaces, <br />
+      and build functionality. Its a journey of problem  <br />
+      solving and iteration, where every line of code  <br />
+      and pixel perfected brings the vision to reality. <br />
+    </p>
+  </div>
+
+  <div className="text-center"> 
+    <img src={deployment} alt="deployment" className="w-[373px] h-[337px] sm:max-w-full pt-10" />
+    <h1 className="pt-10 text-[40px] font-semibold font-[inter] text-white">
+      Deployment
+    </h1>
+    <p className="text-center text-[16px] font-regular font-[inter] text-white pt-[24px]">
+      Deployment marks the culmination of hard work  <br />
+      and dedication, as solutions are unleashed into the <br />
+      world. Its the moment of truth, where ideas meet the  <br />
+      real world, making an impact and driving change. <br />
+    </p>
+  </div>
 </div>
+
 </section>
 
 <section className="pb-[5rem] bg-white pt-[78px]">
-<h1 className="text-center text-[#22B5F3] font-semibold text-[32px] font-[inter]">About Us</h1>
+  <h1 className="text-center text-[#22B5F3] font-semibold text-[32px] font-[inter]">About Us</h1>
 
-<div className="pl-[70px] flex justify-center pt-[40px] space-x-[56px]"> 
-                <p className="text-align: left text-[16px] font-regular font-[inter] text-black pt-[24px]">
-                At Kaizen Tech and Software Solutions, we embody the spirit of <br /> innovation and dedication. Our team is driven by a youthful <br /> energy and a passion for crafting cutting-edge solutions. Our <br /> mission is clear: to deliver transformative technologies that <br /> propel businesses to new heights while enriching the lives of <br /> individuals through meaningful innovation. With a steadfast <br /> commitment to excellence, we empower our clients to thrive in <br /> an ever-evolving digital landscape. By harnessing the power of <br /> technology, we drive growth, foster positive change, and shape <br /> a brighter future for all. Join us on this journey of innovation and <br /> progress.
-                 </p>
-                 <img src={aboutUs1} alt="deployment" className="w-[530px] h-[474px]" />
+  <div className="flex flex-col items-center sm:flex-row sm:justify-center sm:items-start sm:space-x-[56px] pt-[40px] sm:pt-[100px]"> 
+  <p className="text-[16px] font-regular font-[inter] text-black sm:text-left">
+    At Kaizen Tech and Software Solutions, we embody the spirit of <br /> innovation and dedication. Our team is driven by a youthful <br /> energy and a passion for crafting cutting-edge solutions. Our <br /> mission is clear: to deliver transformative technologies that <br /> propel businesses to new heights while enriching the lives of <br /> individuals through meaningful innovation. With a steadfast <br /> commitment to excellence, we empower our clients to thrive in <br /> an ever-evolving digital landscape. By harnessing the power of <br /> technology, we drive growth, foster positive change, and shape <br /> a brighter future for all. Join us on this journey of innovation and <br /> progress.
+  </p>
+  <img src={aboutUs1} alt="deployment" className="w-[530px] h-[474px] max-w-full" />
 </div>
 
-<div className="pl-[70px] flex justify-center pt-[100px] space-x-[56px]"> 
-<img src={aboutUs2} alt="deployment" className="w-[530px] h-[474px]" />
-                <p className="text-align: left text-[16px] font-regular font-[inter] text-black pt-[24px]">
-                Meet the dynamic team behind Kaizen Tech and Software <br /> Solutions: Carl Saginsin, Ken Santos, Kevin Yu, and Katelyn Ebuiza.<br /> Together, we bring a blend of expertise in development <br /> and UI design to the table. With our combined talents and <br /> passion for innovation, we are committed to delivering top <br />-notch solutions that exceed expectations. Our close-knit team <br /> fosters collaboration, creativity, and a relentless pursuit of <br /> excellence in every project we undertake. At Kaizen, we're not <br /> just a team — we're a family, dedicated to pushing boundaries <br /> and shaping the future of technology.</p>  
-</div>
+
+  <div className="flex flex-col items-center sm:flex-row sm:justify-center sm:items-start sm:space-x-[56px] pt-[40px] sm:pt-[100px]"> 
+    <img src={aboutUs2} alt="deployment" className="w-[530px] h-[474px] max-w-full" />
+    <p className="text-[16px] font-regular font-[inter] text-black text-center sm:text-left">
+      Meet the dynamic team behind Kaizen Tech and Software <br /> Solutions: Carl Saginsin, Ken Santos, Kevin Yu, and Katelyn Ebuiza.<br /> Together, we bring a blend of expertise in development <br /> and UI design to the table. With our combined talents and <br /> passion for innovation, we are committed to delivering top <br />-notch solutions that exceed expectations. Our close-knit team <br /> fosters collaboration, creativity, and a relentless pursuit of <br /> excellence in every project we undertake. At Kaizen, we're not <br /> just a team — we're a family, dedicated to pushing boundaries <br /> and shaping the future of technology.
+    </p>  
+  </div>
 </section>
 
+
 <section className="bg-black pt-[86px] pb-10">
-<h1 className="text-center text-white font-semibold text-[32px] font-[inter]">Our Tech Stack</h1>
-<p className="text-center text-[16px] font-regular font-[inter] text-white pt-[24px]">
-With a carefully curated tech stack, we're equipped to tackle any project with ease. <br />
+<h1 className="text-center text-white font-semibold  text-[32px] sm:text-[42px] font-[inter]">Our Tech Stack</h1>
+<p className="text-center text-[11px] sm:text-[16px] font-regular font-[inter] text-white pt-[24px]">
+With a carefully curated tech stack, we are equipped to tackle any project with ease. <br />
 Harnessing the power of PHP and JavaScript, alongside frameworks like Laravel and React,  <br />
-we build exceptional solutions. Coupled with robust databases, cloud infrastructure, and DevOps   <br />
-proficiency, we're ready to overcome any challenge. Rest assured, our tech expertise ensures  <br />
+we build exceptional solutions. Coupled with robust databases, cloud infrastructure, and DevOps  < br />
+proficiency, we are ready to overcome any challenge. Rest assured, our tech expertise ensures  < br />
 top-notch delivery every time.
         </p>
 
@@ -116,8 +122,8 @@ top-notch delivery every time.
             <hr className="border-white  w-[50rem]" />    
         </div>
 
-<div className="flex justify-center pt-[40px] space-x-[22rem]"> 
-                <div> 
+<div className=" lg:space-x-[22rem] sm:flex justify-center pt-[40px]"> 
+                <div className='pb-10 sm:flex justify-center'> 
                         <h1 className="text-center text-[24px] font-light font-[inter] text-white">
                             Front end Tech Stack
                         </h1>
@@ -135,12 +141,12 @@ top-notch delivery every time.
 
                 <div className='flex space-x-3 pt-[24px]'> 
                         <img src={Typescript} alt="React" className="w-[37px] h-[37px]" />
-                        <p className='text-white pt-1 font-[inter]'>Typescript + Next js</p>
+                        <p className='text-white pt-1 font-[inter]'>Next js</p>
                 </div>
 
                 <div className='flex space-x-3 pt-[24px]'> 
                         <img src={Tailwind} alt="React" className="w-[50px] h-[30px]" />
-                        <p className='text-white pt-1 font-[inter]'>TailwindCSS</p>
+                        <p className='text-white pt-1 font-[inter]'>Tailwind</p>
                 </div>
 
                 <div className='flex space-x-3 pt-[24px]'> 
@@ -151,8 +157,12 @@ top-notch delivery every time.
 
 </div>
 
-<div className="flex justify-center pt-[90px] space-x-[22rem]"> 
-
+<div className=" lg:space-x-[22rem] sm:flex justify-center pt-[40px]">
+                <div className='pb-10 sm: justify-center'>  
+                        <h1 className="text-center text-[24px] font-light font-[inter] text-white">
+                            Back end Tech Stack
+                        </h1>
+                </div>
 <div>
 <div className='flex space-x-3'> 
                         <img src={Laravel} alt="React" className="w-[37px] h-[37px]" />
@@ -179,33 +189,28 @@ top-notch delivery every time.
                         <p className='text-white pt-1 font-[inter]'>PostgreSQL</p>
                 </div>
 </div>
-<div> 
-                        <h1 className="text-center text-[24px] font-light font-[inter] text-white">
-                            Back end Tech Stack
-                        </h1>
-                </div>
 </div>
 </section>
 
-<section className="pb-[5rem] bg-white pt-[100px]">
+<section className="pb-[5rem] bg-white pt-[100px]  ">
 <h1 className="text-center text-[#22B5F3] font-semibold text-[32px] font-[inter]">Our Services</h1>
 
 
 
-<div className='flex justify-center pt-[100px] space-x-[130px]'> 
-                        <h1 className="text-center text-[72px] text-[#22B5F3] font-bold font-[inter]">
+<div className='sm:flex justify-center pt-[100px] space-x-[130px]'> 
+                        <h1 className="text-left sm:text-center text-[60px] text-[#22B5F3] font-bold font-[inter]">
                             UI/UX Design
                         </h1>
-                        <p className='pt-11 text-[#939395]'>
-                        We Research and Design Stunning UI’s for your business needs
+                        <p className='pt-11 text-[#939395] '>
+                          We Research and Design Stunning UI’s for your business needs
                         </p>
 </div>
 <div className='flex justify-center'>
             <hr className="border-[#22B5F3]  w-[72rem]" />    
 </div>
 
-<div className='flex justify-center pt-[100px] space-x-[64px]'> 
-                        <h1 className="text-center text-[72px] text-[#22B5F3] font-bold font-[inter]">
+<div className='sm:flex justify-center pt-[100px] space-x-[64px]'> 
+<h1 className="text-left sm:text-center text-[60px] text-[#22B5F3] font-bold font-[inter]">
                             Web Development
                         </h1>
                         <p className='pt-11 text-[#939395]'>
@@ -216,8 +221,8 @@ top-notch delivery every time.
             <hr className="border-[#22B5F3]  w-[72rem]" />    
 </div>
 
-<div className='flex justify-center pt-[100px] space-x-[53px]'> 
-                        <h1 className="text-center text-[72px] text-[#22B5F3] font-bold font-[inter]">
+<div className='sm:flex justify-center pt-[100px] space-x-[53px]'> 
+<h1 className="text-left sm:text-center text-[60px] text-[#22B5F3] font-bold font-[inter]">
                         E-Commerce Store
                         </h1>
                         <p className='pt-11 text-[#939395]'>
@@ -228,8 +233,8 @@ top-notch delivery every time.
             <hr className="border-[#22B5F3]  w-[72rem]" />    
 </div>
 
-<div className='flex justify-center pt-[100px] space-x-[72px]'> 
-                        <h1 className="text-center text-[72px] text-[#22B5F3] font-bold font-[inter]">
+<div className='sm:flex justify-center pt-[100px] space-x-[72px]'> 
+<h1 className="text-left sm:text-center text-[60px] text-[#22B5F3] font-bold font-[inter]">
                         Custom Solutions
                         </h1>
                         <p className='pt-11 text-[#939395]'>
