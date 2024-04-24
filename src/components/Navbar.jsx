@@ -16,7 +16,7 @@ const Navbar = () => {
     </div>
     <div className="dropdown dropdown-end">
     <a href="https://calendly.com/kaizentechinnovation/30min" target="_blank" rel="noopener noreferrer">
-        <button className="btn  bg-[#22B5F3] font-[inter] font-semibold text-white drop-shadow-sm">Contact Us</button>
+        <button className="btn  bg-[#22B5F3] font-[inter] font-semibold text-white drop-shadow-sm">Schedule a free consultation</button>
     </a>
     </div>
   </div>

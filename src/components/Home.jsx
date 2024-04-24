@@ -31,13 +31,18 @@ const Home = () => {
                 Kaizen Tech and Software Solutions, based in the Philippines, pioneers bespoke <br />
                 website development, elevating brands and driving online growth.
             </p>
-            <div className="text-center flex justify-center pt-5">
+            {/* <div className="text-center flex justify-center pt-5">
               <a href="https://calendly.com/kaizentechinnovation/30min" target="_blank" rel="noopener noreferrer">
                 <button className="btn bg-[#22B5F3] font-[inter] font-semibold text-white drop-shadow-sm">
                   Schedule a free consultation
                 </button>
               </a>
-            </div>
+            </div> */}
+<div className="text-center flex justify-center pt-10">
+    <button onClick={() => window.open('https://drive.google.com/uc?export=download&id=1tn35B2aaL7GSG37RkMOJhZ5iJReu0jlW', '_blank')} className="btn bg-[#22B5F3] font-[inter] font-semibold text-white drop-shadow-sm">Company Profile</button>
+</div>
+
+
 
 
 </section>
@@ -110,6 +115,7 @@ const Home = () => {
       Meet the dynamic team behind Kaizen Tech and Software <br /> Solutions: Carl Saginsin, Ken Santos, Kevin Yu, and Katelyn Ebuiza.<br /> Together, we bring a blend of expertise in development <br /> and UI design to the table. With our combined talents and <br /> passion for innovation, we are committed to delivering top <br />-notch solutions that exceed expectations. Our close-knit team <br /> fosters collaboration, creativity, and a relentless pursuit of <br /> excellence in every project we undertake. At Kaizen, we're not <br /> just a team — we're a family, dedicated to pushing boundaries <br /> and shaping the future of technology.
     </p>  
   </div>
+
 </section>
 
 
