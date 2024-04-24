@@ -32,8 +32,13 @@ const Home = () => {
                 website development, elevating brands and driving online growth.
             </p>
             <div className="text-center flex justify-center pt-5">
-                <button className="btn  bg-[#22B5F3] font-[inter] font-semibold text-white drop-shadow-sm">Schedule a free consultation</button>
+              <a href="https://calendly.com/kaizentechinnovation/30min" target="_blank" rel="noopener noreferrer">
+                <button className="btn bg-[#22B5F3] font-[inter] font-semibold text-white drop-shadow-sm">
+                  Schedule a free consultation
+                </button>
+              </a>
             </div>
+
 
 </section>
 
@@ -250,7 +255,9 @@ top-notch delivery every time.
 <h1 className="text-center text-[#939395] font-semibold text-[20px] font-[inter]">Want to start a project?</h1>
 <h1 className="text-center text-black font-bold text-[124px] font-[inter]">Let’s Talk</h1>
 <div className="text-center flex justify-center pt-5">
+<a href="https://calendly.com/kaizentechinnovation/30min" target="_blank" rel="noopener noreferrer">
                 <button className="btn  bg-[#22B5F3] font-[inter] font-semibold text-white drop-shadow-sm">Schedule a free consultation</button>
+</a>
             </div>
 </section>
     </>
