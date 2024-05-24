@@ -1,5 +1,5 @@
-import aboutUs1 from "../assets/aboutUs1.png";
-import aboutUs2 from "../assets/aboutUs2.png";
+import aboutUs1 from "../../public/assets/aboutUs1.png";
+import aboutUs2 from "../../public/assets/aboutUs2.png";
 const About = () => {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

@@ -1,4 +1,5 @@
 import About from "./About";
+import CaseStudy from "./CaseStudy";
 import Flow from "./Flow";
 import Services from "./Services";
 import TechStacks from "./TechStacks";
@@ -44,8 +45,9 @@ const Home = () => {
       </section>
 
       <Flow />
-      <About />
       <Services />
+      <CaseStudy />
+      <About />
       <TechStacks />
       <section className="pb-[5rem] bg-white pt-[100px]">
         <h1 className="text-center text-[#939395] font-semibold text-[20px] font-[inter]">

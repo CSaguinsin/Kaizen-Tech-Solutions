@@ -1,4 +1,4 @@
-import services from "../../services.json";
+import services from "../../json/services.json";
 
 const Services = () => {
   return (

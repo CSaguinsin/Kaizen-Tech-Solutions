@@ -1,5 +1,3 @@
-import React from "../assets/react.png";
-import Laravel from "../assets/laravel.png";
 const TechStacks = () => {
   return (
     <div>
@@ -31,7 +29,7 @@ const TechStacks = () => {
           </div>
           <div>
             <div className="flex space-x-3">
-              <img src={React} alt="React" className="w-[37px] h-[37px]" />
+              {/* <img src={React} alt="React" className="w-[37px] h-[37px]" /> */}
               <p className="text-white pt-1 font-[inter]">React</p>
             </div>
           </div>
@@ -45,7 +43,7 @@ const TechStacks = () => {
           </div>
           <div>
             <div className="flex space-x-3">
-              <img src={Laravel} alt="React" className="w-[37px] h-[37px]" />
+              {/* <img src={Laravel} alt="React" className="w-[37px] h-[37px]" /> */}
               <p className="text-white pt-1 font-[inter]">Laravel</p>
             </div>
           </div>

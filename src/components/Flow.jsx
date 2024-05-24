@@ -1,9 +1,9 @@
-import deployment from "../assets/deployment.png";
-import ideation from "../assets/ideation.png";
-import development from "../assets/development.png";
+import deployment from "../../public/assets/deployment.png";
+import ideation from "../../public/assets/ideation.png";
+import development from "../../public/assets/development.png";
 const Flow = () => {
   return (
-    <div className="bg-gray-100 mx-auto py-52">
+    <div className="mx-auto py-52">
       <section className="max-w-7xl mx-auto sm:px-6 lg:px-8">
         <h1 className="text-center text-black font-semibold text-[30px] sm:text-[42px] font-[inter]">
           Ideation <span>&rarr;</span> Development <span>&rarr;</span>{" "}
@@ -25,7 +25,7 @@ const Flow = () => {
               />
             </div>
             <div className="p-6">
-              <h5 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
+              <h5 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-black">
                 Ideation
               </h5>
               <p className="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
@@ -46,7 +46,7 @@ const Flow = () => {
               />
             </div>
             <div className="p-6">
-              <h5 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
+              <h5 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-black">
                 Development
               </h5>
               <p className="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
@@ -66,7 +66,7 @@ const Flow = () => {
               />
             </div>
             <div className="p-6">
-              <h5 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
+              <h5 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-black">
                 Development
               </h5>
               <p className="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
