@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "title": "UI/UX Design",
+    "description": "We Research and Design Stunning UI’s for your business needs",
+    "url": "#"
+  },
+  {
+    "id": "2",
+    "title": "Web Development",
+    "description": "Stunning, Functional and Responsive websites that solves your needs",
+    "url": "#"
+  },
+  {
+    "id": "3",
+    "title": "E-Commerce Store",
+    "description": "Seamless experience for your business from appealing UI into secure Database",
+    "url": "#"
+  },
+  {
+    "id": "4",
+    "title": "Custom Solutions",
+    "description": "We provide tailored software to optimize and enhance your Business",
+    "url": "#"
+  }
+]
