@@ -1,8 +1,8 @@
 import "./App.css";
 import Navbar from "./components/Navbar";
-import Home from "./components/Home";
+import Home from "./pages/Home";
 import Footer from "./components/Footer";
-import About from "./components/About";
+import About from "./pages/About";
 import { Routes, Route } from "react-router-dom";
 import Services from "./components/Services";
 import ShowCaseStudy from "./components/ShowCaseStudy";

@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <section className="pb-[5rem] bg-white pt-[78px]">
-        <h1 className="text-center text-[#22B5F3] font-bold font-poppins text-5xl">
+        <h1 className="text-center text-[#22B5F3] font-bold font-[inter] text-5xl">
           About Us
         </h1>
 

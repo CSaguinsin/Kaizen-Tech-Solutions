@@ -1,34 +1,136 @@
+import { Link } from "react-router-dom";
+import { MdCall } from "react-icons/md";
 import Logo from "../../public/assets/Logo.png";
-const Navbar = () => {
-  return (
-    <>
-      <div className="navbar bg-base-100">
-        <div className="flex-1 p-5 ">
-          <img src={Logo} alt="Logo" className="w-[4rem] h-[4rem] " />
-        </div>
-        <div className="flex-none gap-2">
-          <div className="form-control">
-            {/* <ul className="menu menu-horizontal px-1 font-[inter] font-semibold">
-      <li><a>Home</a></li>
-      <li><a>About</a></li>
-      <li><a>Services</a></li>
-    </ul> */}
-          </div>
-          <div className="dropdown dropdown-end">
-            <a
-              href="https://calendly.com/kaizentechinnovation/30min"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <button className="btn  bg-[#22B5F3] font-[inter] font-semibold text-white drop-shadow-sm">
-                Schedule a free consultation
-              </button>
-            </a>
-          </div>
-        </div>
-      </div>
-    </>
-  );
-};
+import { useState, useEffect } from "react";
+import Button from "./Button";
+function NavigationBar() {
+  const [isSmallScreen, setIsSmallScreen] = useState(false);
 
-export default Navbar;
+  const handleResize = () => {
+    setIsSmallScreen(window.innerWidth <= 630);
+  };
+
+  useEffect(() => {
+    handleResize(); // Check the screen size on initial render
+    window.addEventListener("resize", handleResize); // Add resize listener
+    return () => window.removeEventListener("resize", handleResize); // Clean up listener on unmount
+  }, []);
+
+  return (
+    <div>
+      <nav className="z-10 w-full py-4 shadow-sm mb-4">
+        <div className="max-w-7xl mx-auto sm:px-6 lg:px-8">
+          <div className="flex items-center justify-between w-full">
+            <div className="xs:flex md:block lg:flex items-center justify-between w-full">
+              <div className="flex-shrink-0">
+                <div className="flex justify-between w-full xs:p-4 md:p-0 xs:gap-16 sm:gap-28">
+                  <div className="flex flex items-center gap-4">
+                    <img src={Logo} width={50} alt="" srcSet="" />
+                    <Link to="/">
+                      <h1 className="font-[inter] dark:text-white text-xl font-bold xs:text-sm">
+                        Kaizen Tech &
+                      </h1>
+                      <h1 className="font-[inter] dark:text-gray-300 xs:text-sm">
+                        Software Solutions
+                      </h1>
+                    </Link>
+                  </div>
+                  <div className="xl:hidden xs:block">
+                    <a
+                      href="https://calendly.com/kaizentechinnovation/30min"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <Button>
+                        {isSmallScreen ? (
+                          <>
+                            Book <MdCall size={20} />
+                          </>
+                        ) : (
+                          "Schedule a free consultation"
+                        )}
+                      </Button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div className="hidden md:block">
+                <div className="flex justify-evenly py-6">
+                  <Link
+                    to="/"
+                    className="font-[inter] dark:text-white text-base font-medium xl:mr-6"
+                  >
+                    Home
+                  </Link>
+                  <Link
+                    to="/porfolio"
+                    className="font-[inter] dark:text-white text-base font-medium xl:mr-6"
+                  >
+                    Portfolio
+                  </Link>
+                  <Link
+                    to="/about"
+                    className="font-[inter] dark:text-white text-base font-medium xl:mr-6"
+                  >
+                    About
+                  </Link>
+                  <Link
+                    to="/contact"
+                    className="font-[inter] dark:text-white text-base font-medium xl:mr-6"
+                  >
+                    Contact
+                  </Link>
+                </div>
+              </div>
+              <div className="hidden xl:block">
+                <div className="flex items-center justify-between gap-4">
+                  <a
+                    href="https://calendly.com/kaizentechinnovation/30min"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <button className="btn  bg-[#22B5F3] font-[inter] font-semibold text-white drop-shadow-sm">
+                      Schedule a free consultation
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="md:hidden" id="mobile-menu">
+          <div className="space-y-1 flex justify-around gap-1 sm:px-8  md:w-full items-center">
+            <Link
+              to="/about"
+              className="font-[inter] dark:text-white p-3 text-base font-medium transition-all duration-500 transform  hover:scale-110"
+            >
+              About
+            </Link>
+            <Link
+              to="/projects"
+              className="font-[inter] dark:text-white p-3 text-base font-medium transition-all duration-500 transform  hover:scale-110"
+            >
+              Projects
+            </Link>
+
+            <Link
+              to="certificates"
+              className="font-[inter] dark:text-white p-3 text-base font-medium transition-all duration-500 transform  hover:scale-110"
+            >
+              Certificates
+            </Link>
+
+            <Link
+              to="/contact"
+              className="font-[inter] dark:text-white p-3 text-base font-medium transition-all duration-500 transform  hover:scale-110"
+            >
+              Contact
+            </Link>
+          </div>
+        </div>
+      </nav>
+    </div>
+  );
+}
+
+export default NavigationBar;

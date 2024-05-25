@@ -15,8 +15,8 @@ const Flow = () => {
           and impactful software.
         </p>
 
-        <div className="mt-20 grid xl:grid-cols-3 xl:gap-4 gap-20 sm:grid-cols-3 xs:grid-cols-1 md:grid-cols-2 lg:grid-cols-6 items-center justify-items-center ">
-          <div className="mb-4 relative flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-96 h-[26rem]">
+        <div className="mt-20 grid xl:grid-cols-3 xl:gap-4 gap-20 sm:grid-cols-1 xs:grid-cols-1 md:grid-cols-2 lg:grid-cols-6 items-center justify-items-center ">
+          <div className="mb-4 relative flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl xs:w-[22rem] xl:w-96 sm:w-96  md:w-[22rem] h-[26rem]">
             <div className="relative h-56 mx-4 -mt-6 overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40">
               <img
                 src={ideation}
@@ -25,10 +25,10 @@ const Flow = () => {
               />
             </div>
             <div className="p-6">
-              <h5 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-black">
+              <h5 className="block mb-2 font-[inter] font-semibold text-xl text-black">
                 Ideation
               </h5>
-              <p className="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
+              <p className="block font-[inter] text-sm text-gray-700 font-regular">
                 Ideation sparks the flame of innovation, where ideas take flight
                 and possibilities abound. Its the creative process of
                 generating, refining, and shaping concepts into actionable
@@ -37,7 +37,7 @@ const Flow = () => {
             </div>
           </div>
 
-          <div className="mb-4 relative flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-96 h-[26rem]">
+          <div className="mb-4 relative flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl  xs:w-[22rem] xl:w-96 sm:w-96 h-[26rem]  md:w-[22rem] ">
             <div className="relative h-56 mx-4 -mt-6 overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40">
               <img
                 src={development}
@@ -46,10 +46,10 @@ const Flow = () => {
               />
             </div>
             <div className="p-6">
-              <h5 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-black">
+              <h5 className="block mb-2 font-[inter] font-semibold text-xl text-black">
                 Development
               </h5>
-              <p className="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
+              <p className="block font-[inter] text-sm text-gray-700 font-regular">
                 Deployment marks the culmination of hard work and dedication, as
                 solutions are unleashed into the world. Its the moment of truth,
                 where ideas meet the real world, making an impact and driving
@@ -57,7 +57,7 @@ const Flow = () => {
               </p>
             </div>
           </div>
-          <div className="mb-4 relative flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-96 h-[26rem]">
+          <div className="mb-4 relative flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl  xs:w-[22rem] xl:w-96 sm:w-96 md:w-[22rem] h-[26rem]">
             <div className="relative h-56 mx-4 -mt-6 overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40">
               <img
                 src={deployment}
@@ -66,10 +66,10 @@ const Flow = () => {
               />
             </div>
             <div className="p-6">
-              <h5 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-black">
-                Development
+              <h5 className="block mb-2 font-[inter] font-semibold text-xl text-black">
+                Deployment
               </h5>
-              <p className="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
+              <p className="block font-[inter] text-sm text-gray-700 font-regular">
                 Development is where ideas come to life, as skilled hands craft
                 code, design interfaces, and build functionality. Its a journey
                 of problem solving and iteration, where every line of code and
