@@ -29,7 +29,7 @@
       "3": "Kaizen Tech Solutions leverages advanced personalization techniques to create a tailored shopping experience for Luminique's customers. By harnessing customer data and behavioral insights, we implement personalized product recommendations, targeted promotions, and customized content on the website. "
     },
     "closingRemarks": "Through a synergistic partnership between Kaizen Tech Solutions and Luminique, we revolutionized Luminique's ecommerce platform. Our collaborative efforts resulted in a seamless and visually captivating shopping experience, driving increased sales, enhanced brand perception, and heightened customer satisfaction. The redesigned platform positions Luminique as a trailblazer in the fashion ecommerce industry, ensuring continued growth and success in the competitive market.",
-    "imageUrl": "/dist/assets/Luminique.png",
+    "imageUrl": "/assets/Luminique.png",
     "link": "luminique",
     "url": "#"
   },
@@ -38,7 +38,7 @@
     "name": "A Core Lying-In Clinic",
     "subHeader": "A Core Lying-In Clinic - A Leading Maternity Care Center",
     "development": "Web Development",
-    "headerImage": "/dist/assets/header-clinic.png",
+    "headerImage": "/assets/header-clinic.png",
     "duration": "1 Month ( March - April )",
     "industry": "Health Clinic",
     "companySize": "15",
@@ -69,7 +69,7 @@
       "4": "Ensure that the new system integrates with existing data management systems for a smooth transition and efficient operation."
     },
     "closingRemarks": "A Core Maternity Lying-In’s partnership with Kaizen Tech Solutions is a strategic move to enhance patient convenience, improve operational efficiency, and broaden the reach of their essential maternity services. By implementing a state of-the-art online appointment system and revamping their online presence, A Core Maternity Lying-In reaffirms their commitment to providing exceptional care and support to expectant mothers and their families. This initiative marks a significant step forward in making quality maternity care more accessible and convenient for all",
-    "imageUrl": "/dist/assets/a-core-lyingin-clinic.png",
+    "imageUrl": "/assets/a-core-lyingin-clinic.png",
     "link": "a-core-lying-in-clinic",
     "url": "https://a-core-web-app.web.app/"
   }

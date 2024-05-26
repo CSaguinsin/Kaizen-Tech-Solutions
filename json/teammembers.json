@@ -15,7 +15,7 @@
     "linkedin": "https://www.linkedin.com/in/kenxsantos",
     "facebook": "https://www.facebook.com/kens.santos07",
     "instagram": "https://www.instagram.com/krimxoh",
-    "imageUrl": "/dist/assets/profile/ken.jpg"
+    "imageUrl": "/assets/profile/ken.jpg"
   },
   {
     "name": "Katelyn Ebuiza",
@@ -24,7 +24,7 @@
     "linkedin": "https://www.linkedin.com/in/kenxsantos",
     "facebook": "https://www.facebook.com/kens.santos07",
     "instagram": "https://www.instagram.com/krimxoh",
-    "imageUrl": "/dist/assets/profile/kate.jpg"
+    "imageUrl": "/assets/profile/kate.jpg"
   },
   {
     "name": "Rheign Malolot",
@@ -32,6 +32,6 @@
     "linkedin": "https://www.linkedin.com/in/kenxsantos",
     "facebook": "https://www.facebook.com/kens.santos07",
     "instagram": "https://www.instagram.com/krimxoh",
-    "imageUrl": "/dist/assets/profile/daryl.jpg"
+    "imageUrl": "/assets/profile/daryl.jpg"
   }
 ]

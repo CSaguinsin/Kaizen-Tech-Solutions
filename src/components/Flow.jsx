@@ -16,7 +16,7 @@ const Flow = () => {
           <div className="mb-4 relative flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl xs:w-[22rem] xl:w-96 sm:w-96  md:w-[22rem] h-[26rem]">
             <div className="relative h-56 mx-4 -mt-6 overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40">
               <img
-                src="/dist/assets/ideation.png"
+                src="/assets/ideation.png"
                 alt="ideation"
                 className="w-[373px] h-[337px] sm:max-w-full"
               />
@@ -37,7 +37,7 @@ const Flow = () => {
           <div className="mb-4 relative flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl  xs:w-[22rem] xl:w-96 sm:w-96 h-[26rem]  md:w-[22rem] ">
             <div className="relative h-56 mx-4 -mt-6 overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40">
               <img
-                src="/dist/assets/development.png"
+                src="/assets/development.png"
                 alt="ideation"
                 className="w-full sm:max-w-full"
               />
@@ -57,7 +57,7 @@ const Flow = () => {
           <div className="mb-4 relative flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl  xs:w-[22rem] xl:w-96 sm:w-96 md:w-[22rem] h-[26rem]">
             <div className="relative h-56 mx-4 -mt-6 overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40">
               <img
-                src="/dist/assets/deployment.png"
+                src="/assets/deployment.png"
                 alt="deployment"
                 className="w-[373px] h-[337px] sm:max-w-full"
               />
