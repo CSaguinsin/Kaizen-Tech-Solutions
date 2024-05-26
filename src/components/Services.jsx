@@ -2,7 +2,7 @@ import services from "../../json/services.json";
 
 const Services = () => {
   return (
-    <div className="pb-[5rem] bg-white pt-[100px]">
+    <div className="pb-[5rem] bg-white mt-40">
       <header className="max-w-7xl mx-auto sm:px-6 lg:px-8">
         <h1 className="text-center text-[#22B5F3] font-semibold text-5xl font-[inter]">
           Our Services

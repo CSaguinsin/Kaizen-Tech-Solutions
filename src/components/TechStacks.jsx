@@ -4,10 +4,10 @@ const TechStacks = () => {
     <div>
       <section className="bg-white pt-[86px] pb-10 max-w-7xl mx-auto mb-12">
         <div className="">
-          <h1 className="text-center text-black font-semibold  text-[32px] sm:text-[42px] font-[inter]">
+          <h1 className="font-[inter] md:text-5xl  font-bold text-5xl text-center mb-4">
             Our Tech Stack
           </h1>
-          <p className="text-center text-[11px] xs:text-sm font-regular font-[inter] text-black  xs:px-4 md:px-12 lg:px-24">
+          <p className="text-center text-[11px] xs:text-sm font-regular font-[inter] text-black  xs:px-4 md:px-12 lg:text-lg lg:px-24">
             With a carefully curated tech stack, we are equipped to tackle any
             project with ease. Harnessing the power of PHP and JavaScript,
             alongside frameworks like Laravel and React, we build exceptional
@@ -21,7 +21,7 @@ const TechStacks = () => {
         </div>
 
         <div className="max-w-7xl text-center flex justify-center mx-auto">
-          <div className="grid xs:grid-cols-3 sm:grid-cols-5 md:grid-cols-7 xl:grid-cols-10 gap-4">
+          <div className="grid xs:grid-cols-3 sm:grid-cols-5 md:grid-cols-7 xl:grid-cols-12 gap-4">
             {techStack.map((item) => (
               <div className="grid gap-4" key={item.id}>
                 <div className="rounded-full flex items-center justify-center w-20 h-20 shadow-md bg-gray-50 ">

@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import { MdCall } from "react-icons/md";
-import Logo from "../../public/assets/Logo.png";
 import { useState, useEffect } from "react";
 import Button from "./Button";
 function NavigationBar() {
@@ -25,7 +24,12 @@ function NavigationBar() {
               <div className="flex-shrink-0">
                 <div className="flex justify-between w-full xs:p-4 md:p-0 xs:gap-16 sm:gap-28">
                   <div className="flex flex items-center gap-4">
-                    <img src={Logo} width={50} alt="" srcSet="" />
+                    <img
+                      src="/dist/assets/Logo.png"
+                      width={50}
+                      alt=""
+                      srcSet=""
+                    />
                     <Link to="/">
                       <h1 className="font-[inter] dark:text-white text-xl font-bold xs:text-sm">
                         Kaizen Tech &

@@ -1,52 +1,62 @@
 [
   {
     "id": 1,
-    "title": "React JS",
-    "imageUrl": "/assets/techstacks/react.png"
+    "title": "HTML",
+    "imageUrl": "/dist/assets/techstacks/html-5.png"
   },
   {
     "id": 2,
-    "title": "Bootstrap",
-    "imageUrl": "/assets/techstacks/bootstrap.png"
+    "title": "CSS",
+    "imageUrl": "/dist/assets/techstacks/css-3.png"
   },
   {
     "id": 3,
-    "title": "Java",
-    "imageUrl": "/assets/techstacks/java.png"
+    "title": "Javascript",
+    "imageUrl": "/dist/assets/techstacks/js.png"
   },
   {
     "id": 4,
-    "title": "Laravel",
-    "imageUrl": "/assets/techstacks/laravel.png"
+    "title": "React JS",
+    "imageUrl": "/dist/assets/techstacks/react.png"
   },
   {
     "id": 5,
-    "title": "Node",
-    "imageUrl": "/assets/techstacks/node.png"
-  },
-  {
-    "id": 6,
-    "title": "PostgreSQL",
-    "imageUrl": "/assets/techstacks/postgresql.png"
+    "title": "Bootstrap",
+    "imageUrl": "/dist/assets/techstacks/bootstrap.png"
   },
   {
     "id": 7,
-    "title": "Python",
-    "imageUrl": "/assets/techstacks/python.png"
+    "title": "Laravel",
+    "imageUrl": "/dist/assets/techstacks/laravel.png"
   },
   {
     "id": 8,
-    "title": "SQL",
-    "imageUrl": "/assets/techstacks/sql.png"
+    "title": "Node",
+    "imageUrl": "/dist/assets/techstacks/node.png"
   },
   {
     "id": 9,
-    "title": "Tailwind CSS",
-    "imageUrl": "/assets/techstacks/tailwind.png"
+    "title": "PostgreSQL",
+    "imageUrl": "/dist/assets/techstacks/postgresql.png"
   },
   {
     "id": 10,
+    "title": "Python",
+    "imageUrl": "/dist/assets/techstacks/python.png"
+  },
+  {
+    "id": 11,
+    "title": "SQL",
+    "imageUrl": "/dist/assets/techstacks/sql.png"
+  },
+  {
+    "id": 12,
+    "title": "Tailwind CSS",
+    "imageUrl": "/dist/assets/techstacks/tailwind.png"
+  },
+  {
+    "id": 13,
     "title": "TypeScript",
-    "imageUrl": "/assets/techstacks/typescript.png"
+    "imageUrl": "/dist/assets/techstacks/typescript.png"
   }
 ]
