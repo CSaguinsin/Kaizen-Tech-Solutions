@@ -8,7 +8,7 @@ const Services = () => {
           Our Services
         </h1>
       </header>
-      <div className="max-w-7xl mx-auto sm:px-6 lg:px-8 grid xl:grid-cols-3 xl:gap-4 gap-20 sm:grid-cols-3 xs:grid-cols-1 md:grid-cols-2 lg:grid-cols-6 items-center justify-items-center ">
+      <div className="max-w-7xl mx-auto sm:px-6 lg:px-8 grid xl:grid-cols-3 xl:gap-4 gap-20 sm:grid-cols-1 xs:grid-cols-1 md:grid-cols-2 lg:grid-cols-6 items-center justify-items-center ">
         {services.map((service) => (
           <div
             className="relative flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-96 text-center"
@@ -18,7 +18,7 @@ const Services = () => {
               <h5 className="block mb-2 font-[inter] text-3xl antialiased font-bold leading-snug tracking-normal text-black">
                 {service.title}
               </h5>
-              <p className="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
+              <p className="block font-[inter] text-sm text-gray-700 font-regular">
                 {service.description}
               </p>
             </div>

@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "title": "React JS",
+    "imageUrl": "/assets/techstacks/react.png"
+  },
+  {
+    "id": 2,
+    "title": "Bootstrap",
+    "imageUrl": "/assets/techstacks/bootstrap.png"
+  },
+  {
+    "id": 3,
+    "title": "Java",
+    "imageUrl": "/assets/techstacks/java.png"
+  },
+  {
+    "id": 4,
+    "title": "Laravel",
+    "imageUrl": "/assets/techstacks/laravel.png"
+  },
+  {
+    "id": 5,
+    "title": "Node",
+    "imageUrl": "/assets/techstacks/node.png"
+  },
+  {
+    "id": 6,
+    "title": "PostgreSQL",
+    "imageUrl": "/assets/techstacks/postgresql.png"
+  },
+  {
+    "id": 7,
+    "title": "Python",
+    "imageUrl": "/assets/techstacks/python.png"
+  },
+  {
+    "id": 8,
+    "title": "SQL",
+    "imageUrl": "/assets/techstacks/sql.png"
+  },
+  {
+    "id": 9,
+    "title": "Tailwind CSS",
+    "imageUrl": "/assets/techstacks/tailwind.png"
+  },
+  {
+    "id": 10,
+    "title": "TypeScript",
+    "imageUrl": "/assets/techstacks/typescript.png"
+  }
+]
