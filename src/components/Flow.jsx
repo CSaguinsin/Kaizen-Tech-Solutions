@@ -1,9 +1,6 @@
-import deployment from "../../public/assets/deployment.png";
-import ideation from "../../public/assets/ideation.png";
-import development from "../../public/assets/development.png";
 const Flow = () => {
   return (
-    <div className="mx-auto py-52">
+    <div className="mx-auto mt-40">
       <section className="max-w-7xl mx-auto sm:px-6 lg:px-8">
         <h1 className="text-center text-black font-semibold text-[30px] sm:text-[42px] font-[inter]">
           Ideation <span>&rarr;</span> Development <span>&rarr;</span>{" "}
@@ -19,7 +16,7 @@ const Flow = () => {
           <div className="mb-4 relative flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl xs:w-[22rem] xl:w-96 sm:w-96  md:w-[22rem] h-[26rem]">
             <div className="relative h-56 mx-4 -mt-6 overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40">
               <img
-                src={ideation}
+                src="/dist/assets/ideation.png"
                 alt="ideation"
                 className="w-[373px] h-[337px] sm:max-w-full"
               />
@@ -40,7 +37,7 @@ const Flow = () => {
           <div className="mb-4 relative flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl  xs:w-[22rem] xl:w-96 sm:w-96 h-[26rem]  md:w-[22rem] ">
             <div className="relative h-56 mx-4 -mt-6 overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40">
               <img
-                src={development}
+                src="/dist/assets/development.png"
                 alt="ideation"
                 className="w-full sm:max-w-full"
               />
@@ -60,7 +57,7 @@ const Flow = () => {
           <div className="mb-4 relative flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl  xs:w-[22rem] xl:w-96 sm:w-96 md:w-[22rem] h-[26rem]">
             <div className="relative h-56 mx-4 -mt-6 overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40">
               <img
-                src={deployment}
+                src="/dist/assets/deployment.png"
                 alt="deployment"
                 className="w-[373px] h-[337px] sm:max-w-full"
               />

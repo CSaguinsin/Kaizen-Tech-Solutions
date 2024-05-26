@@ -2,7 +2,6 @@ import { Link } from "react-router-dom";
 import { FaFacebookF } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
-import Logo from "../../public/assets/Logo.png";
 import Button from "./Button";
 const Footer = () => {
   return (
@@ -10,7 +9,9 @@ const Footer = () => {
       <footer className="w-full pt-20 flex items-center justify-center bg-black">
         <div className="md:w-2/3 w-full px-4 text-white flex flex-col">
           <div className="w-full text-7xl font-bold">
-            <h1 className="w-full md:w-2/3 text-7xl">Let's Talk?</h1>
+            <h1 className="w-full md:w-2/3 text-7xl animate-bounce animate-infinite animate-duration-[3000ms]  animate-ease-out">
+              Let's Talk?
+            </h1>
           </div>
           <div className="flex mt-8 flex-col md:flex-row md:justify-between xs:gap-6">
             <p className="w-full md:w-2/3 text-gray-400">
@@ -23,7 +24,7 @@ const Footer = () => {
           <div className="flex flex-col">
             <div className="flex mt-24 mb-12 flex-row justify-between items-center">
               <div className="">
-                <img src={Logo} width={50} alt="" srcSet="" />
+                <img src="/dist/assets/Logo.png" width={50} alt="" srcSet="" />
               </div>
               <a className="hidden md:block cursor-pointer text-white hover:text-white uppercase font-[inter]">
                 Home

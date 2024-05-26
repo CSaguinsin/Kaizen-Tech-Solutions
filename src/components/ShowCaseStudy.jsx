@@ -54,6 +54,7 @@ const ShowCaseStudy = () => {
             <button
               className="xs:w-full text-center justify-center flex items-center gap-2 font-[inter] font-bold transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-12 bg-gradient-to-tr from-gray-900 to-gray-800 text-white shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 active:opacity-[0.85] rounded-full"
               type="button"
+              onClick={() => window.open(project.url, "_blank")}
             >
               Visit Website <GoArrowUpRight size={20} />
             </button>
@@ -95,9 +96,20 @@ const ShowCaseStudy = () => {
             <h1 className="font-bold font-[inter] mb-4 xs:text-xl md:text-2xl">
               Business Challenges
             </h1>
-            <p className="font-[inter] text-md xs:text-sm md:text-lg">
-              {project.businessChallenges}
-            </p>
+            {project.userNeeds && (
+              <ul className="list-disc ml-4">
+                {Object.values(project.businessChallenges).map(
+                  (business, index) => (
+                    <li
+                      key={index}
+                      className="font-[inter] text-md xs:text-sm md:text-lg"
+                    >
+                      {business}
+                    </li>
+                  )
+                )}
+              </ul>
+            )}
           </section>
 
           <section className="mb-8">

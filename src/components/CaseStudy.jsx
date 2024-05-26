@@ -7,7 +7,7 @@ const CaseStudy = () => {
       <div className="max-w-7xl mx-auto sm:px-6 lg:px-8">
         <div className="flex flex-col">
           <div className="mb-16">
-            <h1 className="font-[inter] md:text-5xl dark:text-white font-bold text-5xl text-center">
+            <h1 className="font-[inter] md:text-5xl  font-bold text-5xl text-center">
               Explore Our Recent Projects!
             </h1>
             <br />

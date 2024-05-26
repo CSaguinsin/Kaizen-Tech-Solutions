@@ -9,7 +9,9 @@
     "industry": "Clothing Line",
     "companySize": "20",
     "problemStatement": "When users want to make purchases from Luminique but encounter downtime on Shopee or Lazada, they face difficulties in completing transactions. Additionally, orders placed through these platforms may not consistently sync with our database, leading to potential disruptions in order processing.",
-    "businessChallenges": "Luminique must overcome platform downtime on Shopee or Lazada and resolve synchronization issues with its database to ensure uninterrupted access to products, streamline order processing, and drive sales growth.",
+    "businessChallenges": {
+      "1": "Luminique must overcome platform downtime on Shopee or Lazada and resolve synchronization issues with its database to ensure uninterrupted access to products, streamline order processing, and drive sales growth."
+    },
     "description": "Luminique, a forward-thinking clothing line, partnered with our web development agency to revolutionize their online presence. We crafted a sleek, user-friendly website that showcases their unique collections and enhances the shopping experience. Through innovative features and captivating design, Luminique's platform has become a beacon of style, attracting fashion enthusiasts worldwide. Together, we continue to illuminate the world of fashion with creativity and sophistication.",
     "objectives": {
       "1": "Improve customer satisfaction by minimizing disruptions in the purchasing process, even during periods of Shopee or Lazada downtime.",
@@ -27,8 +29,48 @@
       "3": "Kaizen Tech Solutions leverages advanced personalization techniques to create a tailored shopping experience for Luminique's customers. By harnessing customer data and behavioral insights, we implement personalized product recommendations, targeted promotions, and customized content on the website. "
     },
     "closingRemarks": "Through a synergistic partnership between Kaizen Tech Solutions and Luminique, we revolutionized Luminique's ecommerce platform. Our collaborative efforts resulted in a seamless and visually captivating shopping experience, driving increased sales, enhanced brand perception, and heightened customer satisfaction. The redesigned platform positions Luminique as a trailblazer in the fashion ecommerce industry, ensuring continued growth and success in the competitive market.",
-    "imageUrl": "/assets/Luminique.png",
+    "imageUrl": "/dist/assets/Luminique.png",
     "link": "luminique",
     "url": "#"
+  },
+  {
+    "id": 2,
+    "name": "A Core Lying-In Clinic",
+    "subHeader": "A Core Lying-In Clinic - A Leading Maternity Care Center",
+    "development": "Web Development",
+    "headerImage": "/dist/assets/header-clinic.png",
+    "duration": "1 Month ( March - April )",
+    "industry": "Health Clinic",
+    "companySize": "15",
+    "problemStatement": "A Core Maternity Lying-In wants to showcase their health services to a wider audience. They also need an appointment system that allows patients to book appointments online, making the appointments visible to the staff for approval. This system will eliminate the need for clients to visit the facility in person just to schedule a checkup, streamlining the process and enhancing convenience for everyone involved.",
+    "businessChallenges": {
+      "1": "Current outreach methods may not be effectively reaching a wider audience.",
+      "2": "The existing process requires patients to visit the facility to book appointments, leading to potential delays and inconvenience.",
+      "3": "Manual appointment scheduling can be time-consuming for staff, diverting resources from patient care.n.",
+      "4": "Ensuring that the new appointment system integrates smoothly with existing processes and data management systems."
+    },
+    "description": "A Core Maternity Lying In, a leading maternity care center, partnered with Kaizen Tech Solutions to revolutionize their healthcare delivery. We developed anb nadvanced, user-friendly platform that streamlines patient care and enhances the overall experience. Through innovative software solutions and seamless integration, A Core Maternity Lying In’s services have become more efficient and accessible, ensuring the highest quality of care for expectant mothers and their A Core Lying-In Clinic UX Case study 2 families. Together, we continue to set new standards in maternity care with a commitment to excellence and innovation",
+    "objectives": {
+      "1": "Increase visibility of A Core Maternity Lying-In’s health services to a broader audience.",
+      "2": "Implement an online appointment system for easy and convenient scheduling.",
+      "3": "Reduce the need for in-person visits forappointment scheduling, saving time and improving patient satisfaction.",
+      "4": "Enable staff to manage appointments more effectively and reduce administrative burden"
+    },
+    "userNeeds": {
+      "1": "Patients need an easy and efficient way to book appointments online without visiting the facility.",
+      "2": "The online system should be user-friendly and accessible from various devices. ",
+      "3": "Patients should receive immediate confirmation of their appointment requests and updates on their status.",
+      "4": "Patients need clear communication channels for any follow up questions or changes to their appointments"
+    },
+    "solution": {
+      "1": "Design and develop a modern, user-friendly website to showcase health services and reach a wider audience",
+      "2": "Implement a seamless booking system where patients can fill out appointment forms online, which will be visible to staff for quick approval and scheduling.me.",
+      "3": "Create a secure patient portal for managing appointments, accessing health information, and communicating with healthcare providers.",
+      "4": "Ensure that the new system integrates with existing data management systems for a smooth transition and efficient operation."
+    },
+    "closingRemarks": "A Core Maternity Lying-In’s partnership with Kaizen Tech Solutions is a strategic move to enhance patient convenience, improve operational efficiency, and broaden the reach of their essential maternity services. By implementing a state of-the-art online appointment system and revamping their online presence, A Core Maternity Lying-In reaffirms their commitment to providing exceptional care and support to expectant mothers and their families. This initiative marks a significant step forward in making quality maternity care more accessible and convenient for all",
+    "imageUrl": "/dist/assets/a-core-lyingin-clinic.png",
+    "link": "a-core-lying-in-clinic",
+    "url": "https://a-core-web-app.web.app/"
   }
 ]
