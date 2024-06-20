@@ -16,8 +16,8 @@ function NavigationBar() {
   }, []);
 
   return (
-    <div>
-      <nav className="z-10 w-full py-4 shadow-sm mb-4">
+    <div className="dark:bg-white">
+      <nav className="z-10 w-full py-4 shadow-sm mb-4 dark:bg-white">
         <div className="max-w-7xl mx-auto sm:px-6 lg:px-8">
           <div className="flex items-center justify-between w-full">
             <div className="xs:flex md:block lg:flex items-center justify-between w-full">
@@ -26,10 +26,10 @@ function NavigationBar() {
                   <div className="flex flex items-center gap-4">
                     <img src="/assets/Logo.png" width={50} alt="" srcSet="" />
                     <Link to="/">
-                      <h1 className="font-[inter] dark:text-white text-xl font-bold xs:text-sm">
+                      <h1 className="font-[inter] dark:text-black text-xl font-bold xs:text-sm">
                         Kaizen Tech &
                       </h1>
-                      <h1 className="font-[inter] dark:text-gray-300 xs:text-sm">
+                      <h1 className="font-[inter] dark:text-white-300 xs:text-sm">
                         Software Solutions
                       </h1>
                     </Link>
@@ -55,12 +55,12 @@ function NavigationBar() {
               </div>
               <div className="hidden md:block">
                 <div className="flex justify-evenly py-6">
-                  <Link
+                  {/* <Link
                     to="/"
                     className="font-[inter] dark:text-white text-base font-medium xl:mr-6"
                   >
                     Home
-                  </Link>
+                  </Link> */}
                   {/* <Link
                     to="/porfolio"
                     className="font-[inter] dark:text-white text-base font-medium xl:mr-6"
@@ -69,9 +69,9 @@ function NavigationBar() {
                   </Link> */}
                   <Link
                     to="/about"
-                    className="font-[inter] dark:text-white text-base font-medium xl:mr-6"
+                    className="font-[inter] dark:text-black text-base font-medium xl:mr-6"
                   >
-                    About
+                    Our Story
                   </Link>
                   {/* <Link
                     to="/contact"

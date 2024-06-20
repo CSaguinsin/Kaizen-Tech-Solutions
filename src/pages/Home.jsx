@@ -5,7 +5,7 @@ import TechStacks from "../components/TechStacks";
 const Home = () => {
   return (
     <>
-      <section className="pb-[5rem] mt-20">
+      <section className="pb-[5rem] mt-20 bg-white">
         <h1 className=" text-center font-semibold font-[inter] text-[#909090] xs:text-xs sm:text-base">
           Kaizen Tech and Software Solutions
         </h1>

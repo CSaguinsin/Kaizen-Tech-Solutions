@@ -8,7 +8,7 @@ const About = () => {
     <div>
       <div className="max-w-7xl mx-auto mt-20">
         <div className="text-center mb-12">
-          <h1 className="font-[inter] text-6xl font-bold mb-4">
+          <h1 className="font-[inter] text-6xl font-bold mb-4 text-white dark:text-black ">
             Take a look at our journey!
           </h1>
           <p className="text-lg font-semibold text-gray-700">
@@ -66,7 +66,7 @@ const About = () => {
         <div className="mx-auto px-4 sm:px-6 lg:px-8 my-20">
           <section className="mt-20 flex flex-col">
             <div>
-              <h1 className="text-center text-black font-bold font-[inter] text-5xl">
+              <h1 className="text-center text-white dark:text-black  font-bold font-[inter] text-5xl">
                 Meet our Team!
               </h1>
             </div>
@@ -83,7 +83,7 @@ const About = () => {
       <div className="w-full bg-gray-50 py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 my-20">
           <div>
-            <h1 className="text-center font-bold text-5xl font-[inter]">
+            <h1 className="text-center font-bold text-5xl font-[inter] text-white dark:text-black ">
               Why you should choose us
             </h1>
             <p className="text-center font-[inter] text-gray-700 font-semibold">

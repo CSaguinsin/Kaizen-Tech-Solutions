@@ -11,10 +11,10 @@ const ShowCaseStudy = () => {
   return (
     <div className="">
       <header className="max-w-7xl mx-auto sm:px-6 lg:px-8 py-20 p-6">
-        <h1 className="xs:mb-6 md font-[inter] xs:text-md md:text-4xl xl:text-5xl font-bold">
+        <h1 className="xs:mb-6 md font-[inter] xs:text-md md:text-4xl xl:text-5xl font-bold text-white dark:text-black ">
           {project.subHeader}
         </h1>
-        <button className="mb-4 bg-blue-100 text-blue-800 font-medium font-[inter] me-2 px-6 py-2 rounded-full xs:text-sm md:text-lg">
+        <button className="mb-4 bg-blue-100 text-blue-800 font-medium  font-[inter] me-2 px-6 py-2 rounded-full xs:text-sm md:text-lg">
           {project.development}
         </button>
       </header>
@@ -26,26 +26,26 @@ const ShowCaseStudy = () => {
       <div className="mt-12 max-w-7xl mx-auto lg:flex gap-4">
         <div className="lg:w-1/4 lg:block xs:w-full xs:p-4 sm:grid sm:grid-cols-3">
           <section className="mb-4">
-            <h1 className="mb-2 font-bold font-[inter] xs:text-md md:text-xl">
+            <h1 className="mb-2 font-bold font-[inter] xs:text-md md:text-xl text-white dark:text-black ">
               Industry
             </h1>
-            <p className="mb-2 font-[inter] xs:text-sm md:text-md text-gray-600">
+            <p className="mb-2 font-[inter] xs:text-sm md:text-md text-gray-600 text-white dark:text-black ">
               {project.industry}
             </p>
           </section>
           <section className="mb-4">
-            <h1 className="mb-2 font-bold font-[inter] xs:text-md md:text-xl">
+            <h1 className="mb-2 font-bold font-[inter] xs:text-md md:text-xl text-white dark:text-black ">
               Duration
             </h1>
-            <p className="mb-2 font-[inter] xs:text-sm md:text-md text-gray-600">
+            <p className="mb-2 font-[inter] xs:text-sm md:text-md text-gray-600 text-white dark:text-black  ">
               {project.duration}
             </p>
           </section>
           <section className="mb-4">
-            <h1 className="mb-2 font-bold font-[inter] xs:text-md md:text-xl">
+            <h1 className="mb-2 font-bold font-[inter] xs:text-md md:text-xl text-white dark:text-black ">
               Company Size
             </h1>
-            <p className="mb-2 font-[inter] xs:text-sm md:text-md text-gray-600">
+            <p className="mb-2 font-[inter] xs:text-sm md:text-md text-gray-600 text-white dark:text-black ">
               {project.companySize}
             </p>
           </section>
@@ -62,20 +62,20 @@ const ShowCaseStudy = () => {
         </div>
 
         <div className="p-4 lg:w-full">
-          <p className="mb-4 font-[inter] xs:text-sm md:text-lg">
+          <p className="mb-4 font-[inter] xs:text-sm md:text-lg text-white dark:text-black ">
             {project.description}
           </p>
           <section className="mb-8">
-            <h1 className="font-bold font-[inter] mb-4 xs:text-xl md:text-2xl">
+            <h1 className="font-bold font-[inter] mb-4 xs:text-xl md:text-2xl text-white dark:text-black ">
               Problem Statement
             </h1>
-            <p className="font-[inter] text-md xs:text-sm md:text-lg">
+            <p className="font-[inter] text-md xs:text-sm md:text-lg text-white dark:text-black ">
               {project.problemStatement}
             </p>
           </section>
 
           <section className="mb-8">
-            <h1 className="font-bold font-[inter] mb-4 xs:text-xl md:text-2xl">
+            <h1 className="font-bold font-[inter] mb-4 xs:text-xl md:text-2xl text-white dark:text-black ">
               Objectives & Goals
             </h1>
             {project.objectives && (
@@ -83,7 +83,7 @@ const ShowCaseStudy = () => {
                 {Object.values(project.objectives).map((obj, index) => (
                   <li
                     key={index}
-                    className="font-[inter] text-md xs:text-sm md:text-lg"
+                    className="font-[inter] text-md xs:text-sm md:text-lg text-white dark:text-black"
                   >
                     {obj}
                   </li>
@@ -93,7 +93,7 @@ const ShowCaseStudy = () => {
           </section>
 
           <section className="mb-8">
-            <h1 className="font-bold font-[inter] mb-4 xs:text-xl md:text-2xl">
+            <h1 className="font-bold font-[inter] mb-4 xs:text-xl md:text-2xl text-white dark:text-black">
               Business Challenges
             </h1>
             {project.userNeeds && (
@@ -102,7 +102,7 @@ const ShowCaseStudy = () => {
                   (business, index) => (
                     <li
                       key={index}
-                      className="font-[inter] text-md xs:text-sm md:text-lg"
+                      className="font-[inter] text-md xs:text-sm md:text-lg text-white dark:text-black"
                     >
                       {business}
                     </li>
@@ -113,7 +113,7 @@ const ShowCaseStudy = () => {
           </section>
 
           <section className="mb-8">
-            <h1 className="font-bold font-[inter] mb-4 xs:text-xl md:text-2xl">
+            <h1 className="font-bold font-[inter] mb-4 xs:text-xl md:text-2xl text-white dark:text-black">
               User Needs
             </h1>
             {project.userNeeds && (
@@ -121,7 +121,7 @@ const ShowCaseStudy = () => {
                 {Object.values(project.userNeeds).map((needs, index) => (
                   <li
                     key={index}
-                    className="font-[inter] text-md xs:text-sm md:text-lg"
+                    className="font-[inter] text-md xs:text-sm md:text-lg text-white dark:text-black"
                   >
                     {needs}
                   </li>
@@ -131,7 +131,7 @@ const ShowCaseStudy = () => {
           </section>
 
           <section className="mb-8">
-            <h1 className="font-bold font-[inter] mb-4 xs:text-xl md:text-2xl">
+            <h1 className="font-bold font-[inter] mb-4 xs:text-xl md:text-2xl text-white dark:text-black">
               Solution
             </h1>
             {project.solution && (
@@ -139,7 +139,7 @@ const ShowCaseStudy = () => {
                 {Object.values(project.solution).map((sol, index) => (
                   <li
                     key={index}
-                    className="font-[inter] text-md xs:text-sm md:text-lg"
+                    className="font-[inter] text-md xs:text-sm md:text-lg text-white dark:text-black"
                   >
                     {sol}
                   </li>
@@ -149,10 +149,10 @@ const ShowCaseStudy = () => {
           </section>
 
           <section className="mb-8">
-            <h1 className="font-bold font-[inter] mb-4 xs:text-xl md:text-2xl">
+            <h1 className="font-bold font-[inter] mb-4 xs:text-xl md:text-2xl text-white dark:text-black">
               Closing Remarks
             </h1>
-            <p className="font-[inter] text-md xs:text-sm md:text-lg">
+            <p className="font-[inter] text-md xs:text-sm md:text-lg text-white dark:text-black">
               {project.closingRemarks}
             </p>
           </section>
