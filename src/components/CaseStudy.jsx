@@ -7,11 +7,11 @@ const CaseStudy = () => {
       <div className="max-w-7xl mx-auto sm:px-6 lg:px-8">
         <div className="flex flex-col">
           <div className="mb-16">
-            <h1 className="font-[inter] md:text-5xl text-white dark:text-black font-bold text-5xl text-center">
+            <h1 className="font-[inter] md:text-5xl text-black dark:text-white font-bold text-5xl text-center">
               Explore Our Recent Projects!
             </h1>
             <br />
-            <p className="text-center text-[12px] sm:text-[18px] font-regular font-[inter] text-black">
+            <p className="text-center text-[12px] sm:text-[18px] font-regular font-[inter] text-black dark:text-white">
               Take a Journey Through Our Latest Achievements and See How We Turn
               Visions into Reality!
             </p>
@@ -32,10 +32,10 @@ const CaseStudy = () => {
                 <button className="mb-4 bg-blue-100 text-blue-800 text-xs font-medium font-[inter] me-2 px-3 py-1 rounded-full">
                   {item.development}
                 </button>
-                <h1 className="mb-4 font-[inter] text-3xl font-bold text-white dark:text-black ">
+                <h1 className="mb-4 font-[inter] text-3xl font-bold text-black dark:text-white">
                   {item.name}
                 </h1>
-                <p className="mb-4 font-[inter] xs:text-sm md:text-md text-white dark:text-black  ">
+                <p className="mb-4 font-[inter] xs:text-sm md:text-md text-black dark:text-white">
                   {item.description}
                 </p>
                 <Link

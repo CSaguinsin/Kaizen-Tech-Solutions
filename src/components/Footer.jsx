@@ -24,7 +24,7 @@ const Footer = () => {
           <div className="flex flex-col">
             <div className="flex mt-24 mb-12 flex-row justify-between items-center">
               <div className="">
-                <img src="/dist/assets/Logo.png" width={50} alt="" srcSet="" />
+                <img src="/assets/Logo.png" width={50} alt="" srcSet="" />
               </div>
               <a className="hidden md:block cursor-pointer text-white hover:text-white uppercase font-[inter]">
                 Home

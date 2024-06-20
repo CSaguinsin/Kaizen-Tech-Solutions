@@ -18,10 +18,10 @@ const ProfileCard = ({
       />
       <div className="space-y-4 text-center divide-y dark:divide-gray-300">
         <div className="my-2 space-y-1">
-          <h2 className="text-xl font-semibold sm:text-2xl font-[inter]">
+          <h2 className="text-xl font-semibold sm:text-2xl font-[inter] text-black dark:text-white">
             {name}
           </h2>
-          <p className="px-5 text-xs sm:text-base dark:text-gray-600 font-[inter]">
+          <p className="px-5 text-xs sm:text-base text-gray-600 font-[inter]">
             {role}
           </p>
         </div>
@@ -31,7 +31,7 @@ const ProfileCard = ({
               rel="noopener noreferrer"
               href={github}
               aria-label="GitHub"
-              className="p-2 rounded-md dark:text-gray-800 hover:dark:text-violet-600"
+              className="p-2 rounded-md text-gray-800 hover:dark:text-violet-600"
             >
               <FaGithub size={20} />
             </a>
@@ -41,7 +41,7 @@ const ProfileCard = ({
               rel="noopener noreferrer"
               href={linkedin}
               aria-label="LinkedIn"
-              className="p-2 rounded-md dark:text-gray-800 hover:dark:text-violet-600"
+              className="p-2 rounded-md text-gray-800 hover:dark:text-violet-600"
             >
               <FaLinkedin size={20} />
             </a>
@@ -51,7 +51,7 @@ const ProfileCard = ({
               rel="noopener noreferrer"
               href={facebook}
               aria-label="Facebook"
-              className="p-2 rounded-md dark:text-gray-800 hover:dark:text-violet-600"
+              className="p-2 rounded-md text-gray-800 hover:dark:text-violet-600"
             >
               <FaFacebook size={20} />
             </a>
@@ -61,7 +61,7 @@ const ProfileCard = ({
               rel="noopener noreferrer"
               href={instagram}
               aria-label="Instagram"
-              className="p-2 rounded-md dark:text-gray-800 hover:dark:text-violet-600"
+              className="p-2 rounded-md text-gray-800 hover:dark:text-violet-600"
             >
               <FaInstagram size={20} />
             </a>

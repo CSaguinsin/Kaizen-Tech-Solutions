@@ -26,10 +26,10 @@ function NavigationBar() {
                   <div className="flex flex items-center gap-4">
                     <img src="/assets/Logo.png" width={50} alt="" srcSet="" />
                     <Link to="/">
-                      <h1 className="font-[inter] dark:text-black text-xl font-bold xs:text-sm">
+                      <h1 className="font-[inter] text-black dark:text-white text-xl font-bold xs:text-sm">
                         Kaizen Tech &
                       </h1>
-                      <h1 className="font-[inter] dark:text-white-300 xs:text-sm">
+                      <h1 className="font-[inter] text-black dark:text-white-300 xs:text-sm">
                         Software Solutions
                       </h1>
                     </Link>
@@ -69,7 +69,7 @@ function NavigationBar() {
                   </Link> */}
                   <Link
                     to="/about"
-                    className="font-[inter] dark:text-black text-base font-medium xl:mr-6"
+                    className="font-[inter] text-black dark:text-white text-base font-medium xl:mr-6"
                   >
                     Our Story
                   </Link>
@@ -88,9 +88,9 @@ function NavigationBar() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <button className="btn  bg-[#22B5F3] font-[inter] font-semibold text-white drop-shadow-sm">
+                    <Button className="btn bg-[#22B5F3] font-[inter] font-semibold text-white dark:text-white drop-shadow-sm">
                       Schedule a free consultation
-                    </button>
+                    </Button>
                   </a>
                 </div>
               </div>

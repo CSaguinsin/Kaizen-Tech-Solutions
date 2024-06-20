@@ -1,3 +1,4 @@
+import Button from "../components/Button";
 import CaseStudy from "../components/CaseStudy";
 import Flow from "../components/Flow";
 import Services from "../components/Services";
@@ -29,17 +30,17 @@ const Home = () => {
               </a>
             </div> */}
         <div className="text-center flex justify-center pt-10">
-          <button
+          <Button
             onClick={() =>
               window.open(
                 "https://drive.google.com/uc?export=download&id=1tn35B2aaL7GSG37RkMOJhZ5iJReu0jlW",
                 "_blank"
               )
             }
-            className="btn bg-[#22B5F3] font-[inter] font-semibold text-white drop-shadow-sm"
+            className="btn bg-[#22B5F3] font-[inter] font-semibold text-white drop-shadow-sm "
           >
             Company Profile
-          </button>
+          </Button>
         </div>
       </section>
 

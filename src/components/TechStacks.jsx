@@ -4,7 +4,7 @@ const TechStacks = () => {
     <div>
       <section className="bg-white pt-[86px] pb-10 max-w-7xl mx-auto mb-12">
         <div className="">
-          <h1 className="font-[inter] md:text-5xl text-white dark:text-black  font-bold text-5xl text-center mb-4">
+          <h1 className="font-[inter] md:text-5xl text-black dark:text-white font-bold text-5xl text-center mb-4">
             Our Tech Stack
           </h1>
           <p className="text-center text-[11px] xs:text-sm font-regular font-[inter] text-black  xs:px-4 md:px-12 lg:text-lg lg:px-24">
