@@ -61,24 +61,24 @@ function NavigationBar() {
                   >
                     Home
                   </Link>
-                  <Link
+                  {/* <Link
                     to="/porfolio"
                     className="font-[inter] dark:text-white text-base font-medium xl:mr-6"
                   >
                     Portfolio
-                  </Link>
+                  </Link> */}
                   <Link
                     to="/about"
                     className="font-[inter] dark:text-white text-base font-medium xl:mr-6"
                   >
                     About
                   </Link>
-                  <Link
+                  {/* <Link
                     to="/contact"
                     className="font-[inter] dark:text-white text-base font-medium xl:mr-6"
                   >
                     Contact
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
               <div className="hidden xl:block">
@@ -100,31 +100,24 @@ function NavigationBar() {
         <div className="md:hidden" id="mobile-menu">
           <div className="space-y-1 flex justify-around gap-1 sm:px-8  md:w-full items-center">
             <Link
+              to="/"
+              className="font-[inter] dark:text-white p-3 text-base font-medium transition-all duration-500 transform  hover:scale-110"
+            >
+              Home
+            </Link>
+            <Link
               to="/about"
               className="font-[inter] dark:text-white p-3 text-base font-medium transition-all duration-500 transform  hover:scale-110"
             >
               About
             </Link>
-            <Link
-              to="/projects"
-              className="font-[inter] dark:text-white p-3 text-base font-medium transition-all duration-500 transform  hover:scale-110"
-            >
-              Projects
-            </Link>
 
-            <Link
-              to="certificates"
-              className="font-[inter] dark:text-white p-3 text-base font-medium transition-all duration-500 transform  hover:scale-110"
-            >
-              Certificates
-            </Link>
-
-            <Link
+            {/* <Link
               to="/contact"
               className="font-[inter] dark:text-white p-3 text-base font-medium transition-all duration-500 transform  hover:scale-110"
             >
               Contact
-            </Link>
+            </Link> */}
           </div>
         </div>
       </nav>
